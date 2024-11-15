@@ -15,3 +15,7 @@ Route::get('/api/count', 'index/getCount');
 
 // 更新计数，自增或者清零
 Route::post('/api/count', 'index/updateCount');
+
+
+// 更新计数，自增或者清零
+Route::post('/api/model_list', 'model/list');
